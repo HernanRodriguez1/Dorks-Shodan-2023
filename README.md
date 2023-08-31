@@ -1,6 +1,6 @@
 # Exploits-Shodan
 
-Recopilación de Querys de shodan con exploits :)
+Recopilación de Querys de shodan con scripts personalizados :)
 
 ## DICOM 
 
@@ -8,7 +8,7 @@ Recopilación de Querys de shodan con exploits :)
 "DICOM Server Response" port:104
 ```
 
-## Exploit:
+## Access:
 
 ```sh
 python3 Dicom.py
