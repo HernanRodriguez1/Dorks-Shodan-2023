@@ -167,6 +167,19 @@ country:pe port:445
 ```
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/80c02b3b-bf18-4e78-979c-93ea1447c115)
 
+## Search Web shell 
+
+```sh
+html:"wso.php"
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/a77cd40e-e1f4-4c1f-9d15-35f8631e0192)
+
+webshell as default fa769dac7a0a94ee47d8ebe021eaba9e has a match password ghost287
+
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/312e1098-61ec-4179-b4fc-c52875fa6e0a)
+
+
+
 
 ## OS Windows Obsolete
 Tener sistemas Windows obsoletos y sin soporte puede conllevar una serie de peligros y riesgos significativos para la seguridad, la estabilidad y la eficiencia de tus sistemas y datos.
