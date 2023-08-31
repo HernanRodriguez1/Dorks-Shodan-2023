@@ -1,4 +1,4 @@
-# Exploits-Shodan
+# Dorks Shodan 2023
 
 Recopilación de Querys de shodan con scripts personalizados :)
 
