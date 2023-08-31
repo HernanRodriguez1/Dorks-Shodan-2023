@@ -46,7 +46,8 @@ shodan search :"220" "230 Login successful." port:21 --fields ip_str --separator
 ```sh
 python3 ftp.py -l ips.txt
 ```
-![image](https://github.com/HernanRodriguez1/Exploits-Shodan/assets/66162160/79f7941a-5d48-4ebd-9a6e-daa2b384ab9a)
+![image](https://github.com/HernanRodriguez1/Exploits-Shodan/assets/66162160/59945aef-9d89-4c2d-bbc6-a876ad1ed68d)
+
 
 
 
