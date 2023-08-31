@@ -4,7 +4,6 @@ from pydicom import Dataset
 
 ae = AE()
 
-# Specify a requested presentation context
 ae.add_requested_context(PatientRootQueryRetrieveInformationModelFind)
 
 ip = "127.0.0.1"
