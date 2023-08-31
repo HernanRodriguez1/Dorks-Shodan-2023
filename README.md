@@ -60,5 +60,18 @@ La autenticación SMB (Server Message Block) sin credenciales, también conocida
 smbclient -L //200.x.x.29/ -N  
 smbclient //200.x.x.29/info
 ```
-
 ![image](https://github.com/HernanRodriguez1/Exploits-Shodan/assets/66162160/da427f4b-0f7b-4f2b-9b0e-326da7e78420)
+
+## Access authentication disabled VNC
+Esto significa que el servidor VNC está configurado para permitir conexiones sin requerir autenticación.
+
+```sh
+"authentication disabled" port:5900,5901
+```
+```sh
+vncviewer -passwd none 91.x.x.238
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/9e610141-1ccf-4388-92c5-c824704ca9c0)
+
+
+
