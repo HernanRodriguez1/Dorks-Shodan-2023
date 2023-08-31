@@ -98,6 +98,22 @@ print "uname -a".execute().text
 ```
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/1c8441b6-33ce-46a9-94b4-ad574866a63c)
 
+## Access devices ADB
+
+```sh
+shodan search :Android Debug Bridge port:5555 "Name:" --fields ip_str --separator " " | awk '{print $1}' | cat > ips.txt 
+ ```
+```sh
+python3 adb.py   
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/da53ed42-de05-4842-9662-5ee57eaf6269)
+
+```sh
+adb devices
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/9e05b583-b684-4b27-b42d-c10b5312d788)
+
+
 
 ## OS Windows Obsolete
 
