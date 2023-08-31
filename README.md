@@ -142,6 +142,12 @@ telnet 212.x.x.14
 ```
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/5f79db0b-aff5-4790-8c9a-59f0b84c59d4)
 
+## Exploit RCE CVE-2020-0796
+```sh
+vuln:CVE-2020-0796
+country:pe port:445
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/5067e96e-1031-413b-87ed-447568d5102b)
 
 
 
