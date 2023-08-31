@@ -96,7 +96,8 @@ html:"Dashboard Jenkins"
 add /script 
 print "uname -a".execute().text
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/1c8441b6-33ce-46a9-94b4-ad574866a63c)
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/96d36829-5013-4bdb-b543-f095a0835dc3)
+
 
 ## Access devices ADB
 
@@ -139,7 +140,8 @@ run
 ```sh
 telnet 212.x.x.14
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/805674eb-82d9-4028-a169-c3b577f9a136)
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/5f79db0b-aff5-4790-8c9a-59f0b84c59d4)
+
 
 
 
