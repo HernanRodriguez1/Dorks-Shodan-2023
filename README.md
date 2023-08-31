@@ -14,6 +14,9 @@ python3 Dicom.py
 
 ![image](https://github.com/HernanRodriguez1/Exploits-Shodan/assets/66162160/29f923e0-fbde-4526-a199-fbf71cb5319f)
 
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/15e42afa-c7ba-44e0-a2fd-1c8dc6a829d5)
+
+
 # Elasticsearch
 Elasticsearch es un motor de búsqueda y análisis distribuido, de código abierto, basado en Lucene. Se utiliza para indexar, buscar y analizar grandes volúmenes de datos en tiempo real. Está diseñado para manejar datos no estructurados o semiestructurados y es especialmente útil para casos de uso en los que se requiere búsqueda y análisis de texto, logística, monitoreo y análisis de registros, y más
 
