@@ -73,6 +73,18 @@ vncviewer -passwd none 91.x.x.238
 ```
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/9e610141-1ccf-4388-92c5-c824704ca9c0)
 
+
+## Access authentication disabled 
+
+```sh
+"MongoDB Server Information" port:27017 -authentication
+```
+```sh
+mongo --host 139.x.x.5
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/69a9b077-8f19-4c3b-8032-0b6387c93c8b)
+
+
 ## OS Windows Obsolete
 
 ```sh
