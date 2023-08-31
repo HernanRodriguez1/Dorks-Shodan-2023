@@ -147,12 +147,9 @@ telnet 212.x.x.14
 vuln:CVE-2020-0796
 country:pe port:445
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/0e06ebb6-a201-438f-b86f-80ec241f0b9a)
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/9719b22e-f451-41ed-8a69-c90917116eee)
 
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/5067e96e-1031-413b-87ed-447568d5102b)
-
-
-
 
 ## OS Windows Obsolete
 
