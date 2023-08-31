@@ -32,6 +32,23 @@ python3 elastic.py -t 192.x.x.153
 ![image](https://github.com/HernanRodriguez1/Exploits-Shodan/assets/66162160/25dadba2-91d2-4bc6-9a91-6c238120d557)
 
 
+## Access FTP Anonymous
+
+```sh
+"220" "230 Login successful." port:21
+230 'anonymous@' login ok 
+"Anonymous+access+allowed" port:"21"
+```
+
+```sh
+shodan search :"220" "230 Login successful." port:21 --fields ip_str --separator " " | awk '{print $1}' | cat > ips.txt
+```
+```sh
+python3 ftp.py -l ips.txt
+```
+![image](https://github.com/HernanRodriguez1/Exploits-Shodan/assets/66162160/79f7941a-5d48-4ebd-9a6e-daa2b384ab9a)
+
+
 
 # Authentication Disabled SMB
 
