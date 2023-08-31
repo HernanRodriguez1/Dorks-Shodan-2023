@@ -123,6 +123,7 @@ adb -s 59.x.x.112:5555 shell
 ```sh
 "Moxa Nport Device" Status: Authentication enabled port:"4800"
 "Moxa Nport Device" Status: Authentication disabled port:"4800"
+shodan search --separator , --fields ip_str,port,data "Moxa Nport" | awk '{print $1,$2,$3}' FS=":" | tr '\\', ' ' | awk '{print $1,$7,$8}' | column -t | ccze -A
 ```
 
 ```sh
