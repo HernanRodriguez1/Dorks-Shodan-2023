@@ -191,8 +191,7 @@ html:"wso.php"
 
 webshell as default fa769dac7a0a94ee47d8ebe021eaba9e has a match password ghost287
 
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/31ab5b5e-97f8-4512-b08a-76981529067a)
-
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/045f69c7-f7be-4130-914f-2c714b623dc6)
 
 ## Search Backup Files
 
