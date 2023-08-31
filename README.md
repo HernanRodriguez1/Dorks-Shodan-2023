@@ -78,6 +78,7 @@ vncviewer -passwd none 91.x.x.238
 
 ```sh
 "MongoDB Server Information" port:27017 -authentication
+"Set-Cookie: mongo-express=" "200 OK"
 ```
 ```sh
 mongo --host 139.x.x.5
