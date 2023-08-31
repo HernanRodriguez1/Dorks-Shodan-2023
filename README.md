@@ -73,5 +73,19 @@ vncviewer -passwd none 91.x.x.238
 ```
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/9e610141-1ccf-4388-92c5-c824704ca9c0)
 
+## OS Windows Obsolete
+
+os:"Windows 5.0" – Windows 2000; support ended in 2010.
+os:"Windows 5.1" – Windows XP; support ended in 2014.
+os:Windows 2003 – Windows Server 2003; support ended in 2015.
+os:"Windows Vista"– Windows Vista; support ended in 2017.
+os:Windows 2008 – Windows Server 2008; support ended in 2020.
+os:"Windows 7" – Windows 7; support ended in 2020.
+os:"Windows 8" – Windows 8; support ended in 2016.
+os:Windows 2011 – Windows Home Server 2011; support ended in 2016.
+os:"Windows 8.1" – Windows 8.1; support ended in 2018.
+os:Windows 2012 – Windows Server 2012; support ended in 2018.
+
+
 
 
