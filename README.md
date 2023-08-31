@@ -165,20 +165,19 @@ country:pe port:445
 ```sh
 "Server: EIG Embedded Web Server" "200 Document follows"
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/80c02b3b-bf18-4e78-979c-93ea1447c115)
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/e3960f20-02a7-4160-b0f5-1109b6a20995)
+
 
 ## Search Web shell 
 
 ```sh
 html:"wso.php"
 ```
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/a77cd40e-e1f4-4c1f-9d15-35f8631e0192)
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/de293e71-053d-433a-a7a3-7f3dd9dc9d17)
 
 webshell as default fa769dac7a0a94ee47d8ebe021eaba9e has a match password ghost287
 
-![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/312e1098-61ec-4179-b4fc-c52875fa6e0a)
-
-
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/31ab5b5e-97f8-4512-b08a-76981529067a)
 
 
 ## OS Windows Obsolete
