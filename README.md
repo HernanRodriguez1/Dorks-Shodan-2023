@@ -74,7 +74,9 @@ vncviewer -passwd none 91.x.x.238
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/9e610141-1ccf-4388-92c5-c824704ca9c0)
 
 
-## Access authentication disabled 
+## Access authentication disabled MongoDB
+Esto significa que el servidor NoSQL MongoDB está configurado para permitir conexiones sin requerir autenticación.
+
 
 ```sh
 "MongoDB Server Information" port:27017 -authentication
@@ -86,6 +88,7 @@ mongo --host 139.x.x.5
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/69a9b077-8f19-4c3b-8032-0b6387c93c8b)
 
 ## Access Jenkins
+Se puede visualizar componentes del servicio Jenkins, ejecutar scripts, etc.
 
 ```sh
 http.component:"jenkins"
@@ -100,6 +103,7 @@ print "uname -a".execute().text
 
 
 ## Access devices ADB
+Es una aplicación de terminal que le permite conectarse al servicio ADB shell de otros dispositivos Android a través de la red.
 
 ```sh
 shodan search :Android Debug Bridge port:5555 "Name:" --fields ip_str --separator " " | awk '{print $1}' | cat > ips.txt 
@@ -120,6 +124,7 @@ adb -s 59.x.x.112:5555 shell
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/e2bf07c6-157a-4fac-b4e5-f317e6ced25f)
 
 ## Access devices SCADA Moxa 
+Sistema SCADA que utiliza productos de la marca Moxa para establecer la conectividad y la comunicación con los dispositivos industriales que están siendo monitoreados y controlados en una infraestructura crítica o proceso industrial.
 
 ```sh
 "Moxa Nport Device" Status: Authentication enabled port:"4800"
@@ -143,6 +148,10 @@ telnet 212.x.x.14
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/5f79db0b-aff5-4790-8c9a-59f0b84c59d4)
 
 ## Exploit RCE CVE-2020-0796
+La vulnerabilidad CVE-2020-0796 se refiere a una vulnerabilidad de ejecución de código remoto (RCE, por sus siglas en inglés) que afecta al protocolo de compartición de archivos SMBv3 (Server Message Block version 3). SMB es un protocolo utilizado para compartir archivos, impresoras y otros recursos en redes de computadoras. La versión 3 (SMBv3) es una versión moderna de este protocolo utilizada en sistemas operativos Windows.
+
+Esta vulnerabilidad se conoció coloquialmente como "SMBGhost" o "CoronaBlue" y fue anunciada en marzo de 2020. 
+
 ```sh
 vuln:CVE-2020-0796
 country:pe port:445
@@ -152,6 +161,8 @@ country:pe port:445
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/5067e96e-1031-413b-87ed-447568d5102b)
 
 ## OS Windows Obsolete
+Tener sistemas Windows obsoletos y sin soporte puede conllevar una serie de peligros y riesgos significativos para la seguridad, la estabilidad y la eficiencia de tus sistemas y datos.
+
 
 ```sh
 os:"Windows 5.0" – Windows 2000; support end 2010.
