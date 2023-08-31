@@ -160,6 +160,14 @@ country:pe port:445
 
 ![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/5067e96e-1031-413b-87ed-447568d5102b)
 
+## Electronic measure
+
+```sh
+"Server: EIG Embedded Web Server" "200 Document follows"
+```
+![image](https://github.com/HernanRodriguez1/Dorks-Shodan-2023/assets/66162160/80c02b3b-bf18-4e78-979c-93ea1447c115)
+
+
 ## OS Windows Obsolete
 Tener sistemas Windows obsoletos y sin soporte puede conllevar una serie de peligros y riesgos significativos para la seguridad, la estabilidad y la eficiencia de tus sistemas y datos.
 
